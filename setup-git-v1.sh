@@ -60,13 +60,25 @@ fi
 #setting up git
 #https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
-git init
-git config --global user.name "Erik Dubois"
-git config --global user.email "erik.dubois@gmail.com"
-sudo git config --system core.editor nano
-git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=18000'
-git config --global push.default simple
+sudo apt-get install libgnome-keyring-dev
+cd /usr/share/doc/git/contrib/credential/gnome-keyring
+sudo make
+
+cd $HOME
+
+#git init
+git config --global user.name "natan"
+git config --global user.email "natansidjabat@gmail.com"
+git config --global core.autocrlf "input"
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+git config --global alias.patch "!git --no-pager diff --no-color"
+git config --global alias.permission-reset "!git diff -p HEAD~1 | grep -E \"^(diff|old mode|new mode)\" | sed -e \"s/^old/NEW/;s/^new/old/;s/^NEW/new/\" | git apply"
+#sudo git config --system core.editor nano
+git config --global credential.helper "/usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring"
+git config --global http.postBuffer "524288000 #default : 1M"
+git config --global http.maxRequestBuffer "100000000 #default : 10M"
+#git config --global credential.helper 'cache --timeout=18000'
+#git config --global push.default simple
 
 
 echo "################################################################"

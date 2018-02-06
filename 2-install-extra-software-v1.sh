@@ -19,37 +19,37 @@ sh install-atom-v1.sh
 
 # Brackets
 
-sh install-brackets-v1.sh
+#sh install-brackets-v1.sh
 
 ###############################################################################################
 
 # Google Chrome
 
-sh install-google-chrome-v1.sh
+#sh install-google-chrome-v1.sh
 
 ###############################################################################################
 
 # Gradio
 
-sh install-gradio-v2.sh
+#sh install-gradio-v2.sh
 
 ###############################################################################################
 
 # Insync
 
-sh install-insync-v1.sh
+#sh install-insync-v1.sh
 
 ###############################################################################################
 
 # Neofetch
 
-sh install-neofetch-v1.sh
+#sh install-neofetch-v1.sh
 
 ###############################################################################################
 
 # Peek
 
-sh install-peek-v2.sh
+#sh install-peek-v2.sh
 
 ###############################################################################################
 
@@ -61,7 +61,7 @@ sh install-redshift-v1.sh
 
 # Simplescreenrecorder
 
-sh install-simplescreenrecorder-v1.sh
+#sh install-simplescreenrecorder-v1.sh
 
 ###############################################################################################
 
@@ -74,7 +74,7 @@ sh install-spotify-v2.sh
 
 # Sublime text 3
 
-sh install-sublime-text-v1.sh
+#sh install-sublime-text-v1.sh
 
 
 ###############################################################################################
@@ -87,21 +87,23 @@ sh install-teamviewer-v1.sh
 
 # Variety
 
-sh install-variety-v1.sh
+#sh install-variety-v1.sh
 
 ###############################################################################################
 
 # Vivaldi
 
-sh install-vivaldi-v2.sh
+#sh install-vivaldi-v2.sh
 
 ###############################################################################################
 
 # Hardcode fixer
 
-sh hardcodefixer-v1.sh
+#sh hardcodefixer-v1.sh
 
 ###############################################################################################
+
+
 
 echo "################################################################"
 echo "###################   extra software installed  ################"
