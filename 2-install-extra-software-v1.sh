@@ -113,6 +113,10 @@ sh install-teamviewer-v1.sh
 # Virtual Box
 sh install-virtual-box-v1.sh
 
+# Deluge
+sh install-deluge-v1.sh
+
+
 
 echo "################################################################"
 echo "###################   extra software installed  ################"

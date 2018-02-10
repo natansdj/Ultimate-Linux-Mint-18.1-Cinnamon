@@ -33,6 +33,10 @@ sudo apt-get install -y unrar zip unzip
 
 ###############################################################################################
 
+### Utilities
+### pwgen : password generator
+sudo apt-get install -y pwgen
+
 
 #ending
 #mkdir $HOME/Upload
